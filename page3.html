@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- h1 -->
+
 <div class="parent">
 <!-- Logo -->
 <div class="div1">
-    <img width="50%." height="50%." src="images/logo.jpg" alt="This is the logo of my website.">
+    <img width="100%." height="100%." src="images/logo.jpg" alt="This is the logo of my website." style="float:center" class="logo2">
 </div>
+ <!-- h1 -->
 <div class="div2">
     <h1 style="color: #ad6d26; font-family: 'TAN Songbird', serif;"> Protecting Aotearoa's Rarest Treasures</h1>
 </div>
@@ -19,15 +20,58 @@
 <!-- NAVIGATION BAR TO THE SIDE -->
 <div class="div3">
     <div class="topnav">
-      <a class="active" href="index.html">Home</a>
+      <a href="index.html">Home</a>
       <a href="page1.html">What can we do and What is being done?</a>
       <a href="page2.html">About</a>
-      <a href="page3.html">Contact Us</a>
+      <a class="active" href="page3.html">Contact Us</a>
     </div>
 </div>
 <!-- SEARCH BAR -->
 <div class="div4">
     <input type="text" placeholder="Search..">
+</div>
+<div class="div5">
+    <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="new zealand">New Zealand</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+<div class="div6"> </div>
+<div class="div7">
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: green;
+        color: white;
+        text-align: center;
+    }
+    </style>
+<!--FOOTER -->
+<div class="footer">
+    <img width="10%." height="10%." src="images/logo.jpg" alt="This is the logo of my website." style="float:left" class="logo">
+    <p>Footer</p>
 </div>
 </body>
 </html>
