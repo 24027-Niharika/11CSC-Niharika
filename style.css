@@ -109,3 +109,34 @@ input[type=text], select, textarea {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+
+/*Centering the map*/
+.map {
+  display: block;
+  margin: auto;
+}
+
+/*Centering video1*/
+.video1 {
+  display: block;
+  margin: auto;
+}
+
+/*Centering video2*/
+.video2 {
+  display: block;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
