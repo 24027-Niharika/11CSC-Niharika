@@ -97,6 +97,9 @@ grid-row-gap: 0px;
   border-radius: 50%;
 }
 
+.JoinUs {
+  vertical-align: text-top;
+}
 /*Search Bar*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
