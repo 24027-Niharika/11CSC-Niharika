@@ -101,7 +101,20 @@ footer {
   height: 100px;
   border-radius: 50%;
 }
+.logo {
+  vertical-align: middle;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
 
+.logo3 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  border-radius: 10%;
+}
 .JoinUs {
   vertical-align: text-top;
 }
