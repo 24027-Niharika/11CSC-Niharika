@@ -108,13 +108,7 @@ footer {
   border-radius: 50%;
 }
 
-.logo3 {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 50%;
-  border-radius: 10%;
-}
+
 .JoinUs {
   vertical-align: text-top;
 }
@@ -173,4 +167,47 @@ input[type=text], select, textarea {
   justify-content: center;
   gap: 25px;
 
+}
+/* Logo of apps for footer */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: green;
+  color: white;
+}
+.fa-twitter {
+  background: #green;
+  color: white;
+}
+
+.fa-youtube {
+  background: green;
+  color: white;
+}
+
+.fa-instagram {
+  background: green;
+  color: white;
+}
+
+
+.fa-reddit {
+  background: green;
+  color: white;
+}
+
+/* Underline text when hovered */
+.txt:hover {
+    text-decoration: underline;
 }
